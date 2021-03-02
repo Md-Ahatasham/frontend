@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'http://localhost/laravel_backend/api/';
+const API_URL = 'http://localhost:8000/api/';
 class AuthService {
   login(user) {
     return axios

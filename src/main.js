@@ -55,8 +55,8 @@ Vue.use(Vuex);
 
 import '@fortawesome/fontawesome-free/css/all.css';
 import '@fortawesome/fontawesome-free/js/all.js';
-window.api_url = "http://localhost/laravel_backend/api/";
-window.file_url = "http://localhost/laravel_backend/public/uploads/";
+window.api_url = "http://localhost:8000/api/";
+window.file_url = "http://localhost:8000/uploads/";
 new Vue({
   router,
   store,
